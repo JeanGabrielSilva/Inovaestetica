@@ -51,6 +51,8 @@
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -188,6 +190,8 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.button17);
+            this.panel2.Controls.Add(this.button15);
             this.panel2.Controls.Add(this.button14);
             this.panel2.Controls.Add(this.button13);
             this.panel2.Controls.Add(this.button12);
@@ -336,6 +340,30 @@
             this.button14.Text = "Produtos";
             this.button14.UseVisualStyleBackColor = false;
             // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(107)))), ((int)(((byte)(31)))));
+            this.button15.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
+            this.button15.ForeColor = System.Drawing.Color.White;
+            this.button15.Location = new System.Drawing.Point(5, 352);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(148, 82);
+            this.button15.TabIndex = 16;
+            this.button15.Text = "Produtos";
+            this.button15.UseVisualStyleBackColor = false;
+            // 
+            // button17
+            // 
+            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(107)))), ((int)(((byte)(31)))));
+            this.button17.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
+            this.button17.ForeColor = System.Drawing.Color.White;
+            this.button17.Location = new System.Drawing.Point(156, 352);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(148, 82);
+            this.button17.TabIndex = 17;
+            this.button17.Text = "Produtos";
+            this.button17.UseVisualStyleBackColor = false;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -380,6 +408,8 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button15;
     }
 }
 
