@@ -113,6 +113,9 @@
     <None Include="Resources\INOVAESTETICA LOGO %281%29.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Resources\icons8-chamada-em-conferência-60.png" />
+    <None Include="Resources\icons8-caixa-60.png" />
+    <None Include="Resources\icons8-agenda-60.png" />
     <Content Include="Resources\INOVAESTETICA-LOGO.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

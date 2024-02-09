@@ -63,6 +63,36 @@ namespace Inovaestetica.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_agenda_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-agenda-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_caixa_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-caixa-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_chamada_em_conferência_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-chamada-em-conferência-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_seringa_60 {
             get {
                 object obj = ResourceManager.GetObject("icons8-seringa-60", resourceCulture);

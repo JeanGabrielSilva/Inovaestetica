@@ -19,6 +19,5 @@ namespace Inovaestetica
             this.Icon = new Icon(Path.Combine(Application.StartupPath, "INOVAESTETICA-LOGO.ico"));
             this.Text = "INOVAESTETICA";
         }
-
     }
 }
