@@ -549,6 +549,7 @@
             this.tableLayoutPanel2.Controls.Add(this.button9, 1, 3);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(393, 107);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.Padding = new System.Windows.Forms.Padding(20);
             this.tableLayoutPanel2.RowCount = 4;
@@ -557,7 +558,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(393, 487);
-            this.tableLayoutPanel2.TabIndex = 19;
+            this.tableLayoutPanel2.TabIndex = 21;
             // 
             // label3
             // 
