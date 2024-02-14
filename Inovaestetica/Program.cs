@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace Inovaestetica
 {
+
     internal static class Program
     {
         /// <summary>
