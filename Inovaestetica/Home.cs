@@ -16,8 +16,14 @@ namespace Inovaestetica
         public Home()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
             this.Icon = new Icon(Path.Combine(Application.StartupPath, "INOVAESTETICA-LOGO.ico"));
             this.Text = "INOVAESTETICA";
+        }
+
+        private void buttonCalculadora_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("calc.exe");
         }
     }
 }

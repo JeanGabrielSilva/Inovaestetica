@@ -116,6 +116,24 @@
     <None Include="Resources\icons8-chamada-em-conferência-60.png" />
     <None Include="Resources\icons8-caixa-60.png" />
     <None Include="Resources\icons8-agenda-60.png" />
+    <None Include="Resources\injetar.png" />
+    <None Include="Resources\calculator_3534.png" />
+    <None Include="Resources\icons8-adicionar-o-carrinho-de-compras-60.png" />
+    <None Include="Resources\icons8-orçamento-60.png" />
+    <None Include="Resources\icons8-orçamento-60 %281%29.png" />
+    <None Include="Resources\icons8-excluir-relatório-gráfico-60.png" />
+    <None Include="Resources\icons8-excluir-relatório-gráfico-60 %281%29.png" />
+    <None Include="Resources\icons8-relatório-60.png" />
+    <None Include="Resources\icons8-estudo-de-caso-60.png" />
+    <None Include="Resources\icons8-pare-de-relatório-gráfico-60.png" />
+    <None Include="Resources\icons8-saco-de-papel-60.png" />
+    <None Include="Resources\icons8-definir-localização-60.png" />
+    <None Include="Resources\icons8-calendário-60.png" />
+    <None Include="Resources\icons8-preço-baixo-64.png" />
+    <None Include="Resources\icons8-banco-seguro-60.png" />
+    <None Include="Resources\icons8-banco-seguro-60 %281%29.png" />
+    <None Include="Resources\icons8-faturamento-60.png" />
+    <None Include="Resources\icons8-fornecedor-60.png" />
     <Content Include="Resources\INOVAESTETICA-LOGO.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

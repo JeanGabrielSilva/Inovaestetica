@@ -63,9 +63,49 @@ namespace Inovaestetica.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap calculator_3534 {
+            get {
+                object obj = ResourceManager.GetObject("calculator_3534", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_adicionar_o_carrinho_de_compras_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-adicionar-o-carrinho-de-compras-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_agenda_60 {
             get {
                 object obj = ResourceManager.GetObject("icons8-agenda-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_banco_seguro_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-banco-seguro-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_banco_seguro_60__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-banco-seguro-60 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,6 +123,16 @@ namespace Inovaestetica.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_calendário_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-calendário-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_chamada_em_conferência_60 {
             get {
                 object obj = ResourceManager.GetObject("icons8-chamada-em-conferência-60", resourceCulture);
@@ -93,9 +143,139 @@ namespace Inovaestetica.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_definir_localização_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-definir-localização-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_estudo_de_caso_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-estudo-de-caso-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_excluir_relatório_gráfico_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-excluir-relatório-gráfico-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_excluir_relatório_gráfico_60__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-excluir-relatório-gráfico-60 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_faturamento_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-faturamento-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_fornecedor_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-fornecedor-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_orçamento_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-orçamento-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_orçamento_60__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-orçamento-60 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_pare_de_relatório_gráfico_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-pare-de-relatório-gráfico-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_preço_baixo_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-preço-baixo-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_relatório_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-relatório-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_saco_de_papel_60 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-saco-de-papel-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_seringa_60 {
             get {
                 object obj = ResourceManager.GetObject("icons8-seringa-60", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap injetar {
+            get {
+                object obj = ResourceManager.GetObject("injetar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
