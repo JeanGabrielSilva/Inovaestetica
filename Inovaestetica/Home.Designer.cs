@@ -46,7 +46,7 @@
             this.button14 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
+            this.btnCliente = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.btnProcedimentos = new System.Windows.Forms.Button();
@@ -82,6 +82,7 @@
             // 
             // panel5
             // 
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.panel4);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
@@ -145,7 +146,7 @@
             this.tableLayoutPanel1.Controls.Add(this.button14, 6, 2);
             this.tableLayoutPanel1.Controls.Add(this.button10, 4, 2);
             this.tableLayoutPanel1.Controls.Add(this.button8, 6, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button18, 5, 1);
+            this.tableLayoutPanel1.Controls.Add(this.btnCliente, 5, 1);
             this.tableLayoutPanel1.Controls.Add(this.button2, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnProcedimentos, 0, 1);
@@ -386,21 +387,22 @@
             this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button8.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // btnCliente
             // 
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(107)))), ((int)(((byte)(31)))));
-            this.button18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button18.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Image = global::Inovaestetica.Properties.Resources.icons8_chamada_em_conferência_60;
-            this.button18.Location = new System.Drawing.Point(531, 48);
-            this.button18.Name = "button18";
-            this.button18.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button18.Size = new System.Drawing.Size(116, 144);
-            this.button18.TabIndex = 36;
-            this.button18.Text = "Clientes";
-            this.button18.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button18.UseVisualStyleBackColor = false;
+            this.btnCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(107)))), ((int)(((byte)(31)))));
+            this.btnCliente.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnCliente.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
+            this.btnCliente.ForeColor = System.Drawing.Color.White;
+            this.btnCliente.Image = global::Inovaestetica.Properties.Resources.icons8_chamada_em_conferência_60;
+            this.btnCliente.Location = new System.Drawing.Point(531, 48);
+            this.btnCliente.Name = "btnCliente";
+            this.btnCliente.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
+            this.btnCliente.Size = new System.Drawing.Size(116, 144);
+            this.btnCliente.TabIndex = 36;
+            this.btnCliente.Text = "Clientes";
+            this.btnCliente.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCliente.UseVisualStyleBackColor = false;
+            this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
             // 
             // button2
             // 
@@ -758,7 +760,7 @@
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button btnCliente;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button16;

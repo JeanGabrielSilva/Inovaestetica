@@ -1,4 +1,5 @@
-﻿using Inovaestetica.Movimento.Procedimentos;
+﻿using Inovaestetica.Cadastro.Clientes;
+using Inovaestetica.Movimento.Procedimentos;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -47,6 +48,11 @@ namespace Inovaestetica
         private void btnProcedimentos_Click(object sender, EventArgs e)
         {
             openChildForm(new FormProcedimentos());
+        }
+
+        private void btnCliente_Click(object sender, EventArgs e)
+        {
+            openChildForm(new FormClientes());
         }
     }
 }

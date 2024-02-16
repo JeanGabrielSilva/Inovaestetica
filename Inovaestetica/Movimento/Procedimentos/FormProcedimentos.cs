@@ -13,7 +13,6 @@ namespace Inovaestetica.Movimento.Procedimentos
 
     public partial class FormProcedimentos : Form
     {
-        private Home formHome;
 
         public FormProcedimentos()
         {
@@ -25,5 +24,6 @@ namespace Inovaestetica.Movimento.Procedimentos
         {
             this.Close(); 
         }
+
     }
 }

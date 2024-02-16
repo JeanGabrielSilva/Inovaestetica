@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -65,11 +65,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cadastro\Clientes\FormClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro\Clientes\FormClientes.Designer.cs">
+      <DependentUpon>FormClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InovaesteticaDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InovaesteticaDataSet1.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Movimento\Procedimentos\FormProcedimentos.cs">
       <SubType>Form</SubType>
@@ -77,19 +89,45 @@
     <Compile Include="Movimento\Procedimentos\FormProcedimentos.Designer.cs">
       <DependentUpon>FormProcedimentos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Movimento\Procedimentos\ModalAddCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movimento\Procedimentos\ModalAddCliente.Designer.cs">
+      <DependentUpon>ModalAddCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cadastro\Clientes\FormClientes.resx">
+      <DependentUpon>FormClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Movimento\Procedimentos\FormProcedimentos.resx">
       <DependentUpon>FormProcedimentos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Movimento\Procedimentos\ModalAddCliente.resx">
+      <DependentUpon>ModalAddCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="InovaesteticaDataSet1.xsc">
+      <DependentUpon>InovaesteticaDataSet1.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="InovaesteticaDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InovaesteticaDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="InovaesteticaDataSet1.xss">
+      <DependentUpon>InovaesteticaDataSet1.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -143,6 +181,13 @@
     <None Include="Resources\icons8-banco-seguro-60 %281%29.png" />
     <None Include="Resources\icons8-faturamento-60.png" />
     <None Include="Resources\icons8-fornecedor-60.png" />
+    <Content Include="Inovaestetica.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Inovaestetica_log.ldf">
+      <DependentUpon>Inovaestetica.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\INOVAESTETICA-LOGO.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
