@@ -23,20 +23,7 @@ namespace Inovaestetica.Movimento.Procedimentos
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-            // Fechar o formulário de procedimentos
-            this.Close();
-
-            // Verificar se a instância do formulário home já foi criada e está visível
-            if (formHome == null || formHome.IsDisposed || !formHome.Visible)
-            {
-                // Criar uma nova instância do formulário home
-                formHome = new Home();
-            }
-
-            // Exibir o formulário home novamente
-            formHome.Show();
-            formHome.Focus(); // Garantir que o formulário home esteja em foco
+            this.Close(); 
         }
     }
 }

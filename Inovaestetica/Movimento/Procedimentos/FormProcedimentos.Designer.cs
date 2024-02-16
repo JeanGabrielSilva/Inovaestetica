@@ -33,9 +33,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(277, 178);
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(295, 106);
+            this.button1.Size = new System.Drawing.Size(1177, 652);
             this.button1.TabIndex = 0;
             this.button1.Text = "Voltar";
             this.button1.UseVisualStyleBackColor = true;

@@ -27,22 +27,26 @@ namespace Inovaestetica
             System.Diagnostics.Process.Start("calc.exe");
         }
 
+
+        private Form activeForm = null;
+        private void openChildForm(Form childForm)
+        {
+            if(activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelConteudo.Controls.Add(childForm);
+            panelConteudo.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+
+        }
+
         private void btnProcedimentos_Click(object sender, EventArgs e)
         {
-            // Limpar o conteúdo atual do Panel
-            panelConteudo.Controls.Clear();
-
-            // Criar uma nova instância do formulário de procedimentos
-            FormProcedimentos formProcedimentos = new FormProcedimentos();
-
-            // Definir o formulário de procedimentos como controle filho do Panel
-            formProcedimentos.TopLevel = false;
-            formProcedimentos.FormBorderStyle = FormBorderStyle.None;
-            formProcedimentos.Dock = DockStyle.Fill;
-            panelConteudo.Controls.Add(formProcedimentos);
-
-            // Exibir o formulário de procedimentos
-            formProcedimentos.Show();
+            openChildForm(new FormProcedimentos());
         }
     }
 }

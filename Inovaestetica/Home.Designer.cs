@@ -68,6 +68,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.buttonCalculadora = new System.Windows.Forms.Button();
             this.panelConteudo = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -76,6 +77,7 @@
             this.tableLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panelConteudo.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel5
@@ -84,16 +86,16 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1179, 107);
+            this.panel5.Size = new System.Drawing.Size(1179, 77);
             this.panel5.TabIndex = 13;
             // 
             // panel4
             // 
             this.panel4.Controls.Add(this.pictureBox1);
             this.panel4.Controls.Add(this.label1);
-            this.panel4.Location = new System.Drawing.Point(12, 22);
+            this.panel4.Location = new System.Drawing.Point(12, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(361, 68);
+            this.panel4.Size = new System.Drawing.Size(356, 65);
             this.panel4.TabIndex = 12;
             // 
             // pictureBox1
@@ -170,7 +172,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1179, 489);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1179, 516);
             this.tableLayoutPanel1.TabIndex = 16;
             // 
             // button15
@@ -181,10 +183,10 @@
             this.button15.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.ForeColor = System.Drawing.Color.White;
             this.button15.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button15.Location = new System.Drawing.Point(23, 330);
+            this.button15.Location = new System.Drawing.Point(23, 348);
             this.button15.Name = "button15";
             this.button15.Padding = new System.Windows.Forms.Padding(0, 2, 0, 3);
-            this.button15.Size = new System.Drawing.Size(116, 136);
+            this.button15.Size = new System.Drawing.Size(116, 145);
             this.button15.TabIndex = 54;
             this.button15.Text = "...";
             this.button15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -198,10 +200,10 @@
             this.button9.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.White;
             this.button9.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button9.Location = new System.Drawing.Point(145, 330);
+            this.button9.Location = new System.Drawing.Point(145, 348);
             this.button9.Name = "button9";
             this.button9.Padding = new System.Windows.Forms.Padding(0, 2, 0, 3);
-            this.button9.Size = new System.Drawing.Size(116, 136);
+            this.button9.Size = new System.Drawing.Size(116, 145);
             this.button9.TabIndex = 53;
             this.button9.Text = "...";
             this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -215,10 +217,10 @@
             this.button5.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button5.Location = new System.Drawing.Point(267, 330);
+            this.button5.Location = new System.Drawing.Point(267, 348);
             this.button5.Name = "button5";
             this.button5.Padding = new System.Windows.Forms.Padding(0, 2, 0, 3);
-            this.button5.Size = new System.Drawing.Size(116, 136);
+            this.button5.Size = new System.Drawing.Size(116, 145);
             this.button5.TabIndex = 52;
             this.button5.Text = "...";
             this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -231,10 +233,10 @@
             this.button12.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.button12.ForeColor = System.Drawing.Color.White;
             this.button12.Image = global::Inovaestetica.Properties.Resources.icons8_calendário_60;
-            this.button12.Location = new System.Drawing.Point(917, 189);
+            this.button12.Location = new System.Drawing.Point(917, 198);
             this.button12.Name = "button12";
             this.button12.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button12.Size = new System.Drawing.Size(116, 135);
+            this.button12.Size = new System.Drawing.Size(116, 144);
             this.button12.TabIndex = 41;
             this.button12.Text = "Fechamento mensal";
             this.button12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -247,10 +249,10 @@
             this.button24.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.button24.ForeColor = System.Drawing.Color.White;
             this.button24.Image = global::Inovaestetica.Properties.Resources.icons8_estudo_de_caso_60;
-            this.button24.Location = new System.Drawing.Point(1039, 189);
+            this.button24.Location = new System.Drawing.Point(1039, 198);
             this.button24.Name = "button24";
             this.button24.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button24.Size = new System.Drawing.Size(117, 135);
+            this.button24.Size = new System.Drawing.Size(117, 144);
             this.button24.TabIndex = 50;
             this.button24.Text = "Análise de clientes";
             this.button24.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -263,10 +265,10 @@
             this.button16.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.button16.ForeColor = System.Drawing.Color.White;
             this.button16.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button16.Location = new System.Drawing.Point(531, 189);
+            this.button16.Location = new System.Drawing.Point(531, 198);
             this.button16.Name = "button16";
             this.button16.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button16.Size = new System.Drawing.Size(116, 135);
+            this.button16.Size = new System.Drawing.Size(116, 144);
             this.button16.TabIndex = 46;
             this.button16.Text = "...";
             this.button16.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -279,10 +281,10 @@
             this.button25.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.button25.ForeColor = System.Drawing.Color.White;
             this.button25.Image = global::Inovaestetica.Properties.Resources.icons8_definir_localização_60;
-            this.button25.Location = new System.Drawing.Point(795, 189);
+            this.button25.Location = new System.Drawing.Point(795, 198);
             this.button25.Name = "button25";
             this.button25.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button25.Size = new System.Drawing.Size(116, 135);
+            this.button25.Size = new System.Drawing.Size(116, 144);
             this.button25.TabIndex = 51;
             this.button25.Text = "Metas";
             this.button25.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -295,11 +297,10 @@
             this.button22.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.button22.ForeColor = System.Drawing.Color.White;
             this.button22.Image = global::Inovaestetica.Properties.Resources.icons8_saco_de_papel_60;
-            this.button22.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button22.Location = new System.Drawing.Point(1039, 48);
             this.button22.Name = "button22";
             this.button22.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button22.Size = new System.Drawing.Size(117, 135);
+            this.button22.Size = new System.Drawing.Size(117, 144);
             this.button22.TabIndex = 48;
             this.button22.Text = "Relatório de compras";
             this.button22.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -312,11 +313,10 @@
             this.button11.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.button11.ForeColor = System.Drawing.Color.White;
             this.button11.Image = global::Inovaestetica.Properties.Resources.icons8_pare_de_relatório_gráfico_60;
-            this.button11.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button11.Location = new System.Drawing.Point(917, 48);
             this.button11.Name = "button11";
             this.button11.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button11.Size = new System.Drawing.Size(116, 135);
+            this.button11.Size = new System.Drawing.Size(116, 144);
             this.button11.TabIndex = 40;
             this.button11.Text = "Análise de produtos";
             this.button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -329,11 +329,10 @@
             this.button13.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.button13.ForeColor = System.Drawing.Color.White;
             this.button13.Image = global::Inovaestetica.Properties.Resources.icons8_relatório_60;
-            this.button13.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button13.Location = new System.Drawing.Point(795, 48);
             this.button13.Name = "button13";
             this.button13.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button13.Size = new System.Drawing.Size(116, 135);
+            this.button13.Size = new System.Drawing.Size(116, 144);
             this.button13.TabIndex = 42;
             this.button13.Text = "Análise de procedimentos";
             this.button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -346,10 +345,10 @@
             this.button14.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.button14.ForeColor = System.Drawing.Color.White;
             this.button14.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button14.Location = new System.Drawing.Point(653, 189);
+            this.button14.Location = new System.Drawing.Point(653, 198);
             this.button14.Name = "button14";
             this.button14.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button14.Size = new System.Drawing.Size(116, 135);
+            this.button14.Size = new System.Drawing.Size(116, 144);
             this.button14.TabIndex = 44;
             this.button14.Text = "...";
             this.button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -362,10 +361,10 @@
             this.button10.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.button10.ForeColor = System.Drawing.Color.White;
             this.button10.Image = global::Inovaestetica.Properties.Resources.icons8_fornecedor_60;
-            this.button10.Location = new System.Drawing.Point(409, 189);
+            this.button10.Location = new System.Drawing.Point(409, 198);
             this.button10.Name = "button10";
             this.button10.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button10.Size = new System.Drawing.Size(116, 135);
+            this.button10.Size = new System.Drawing.Size(116, 144);
             this.button10.TabIndex = 39;
             this.button10.Text = "Fornecedores";
             this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -381,7 +380,7 @@
             this.button8.Location = new System.Drawing.Point(653, 48);
             this.button8.Name = "button8";
             this.button8.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button8.Size = new System.Drawing.Size(116, 135);
+            this.button8.Size = new System.Drawing.Size(116, 144);
             this.button8.TabIndex = 38;
             this.button8.Text = "Contas";
             this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -397,7 +396,7 @@
             this.button18.Location = new System.Drawing.Point(531, 48);
             this.button18.Name = "button18";
             this.button18.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button18.Size = new System.Drawing.Size(116, 135);
+            this.button18.Size = new System.Drawing.Size(116, 144);
             this.button18.TabIndex = 36;
             this.button18.Text = "Clientes";
             this.button18.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -414,7 +413,7 @@
             this.button2.Location = new System.Drawing.Point(145, 48);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(0, 2, 0, 3);
-            this.button2.Size = new System.Drawing.Size(116, 135);
+            this.button2.Size = new System.Drawing.Size(116, 144);
             this.button2.TabIndex = 5;
             this.button2.Text = "Agendamentos";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -444,7 +443,7 @@
             this.btnProcedimentos.Name = "btnProcedimentos";
             this.btnProcedimentos.Padding = new System.Windows.Forms.Padding(0, 2, 0, 3);
             this.btnProcedimentos.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnProcedimentos.Size = new System.Drawing.Size(116, 135);
+            this.btnProcedimentos.Size = new System.Drawing.Size(116, 144);
             this.btnProcedimentos.TabIndex = 3;
             this.btnProcedimentos.Text = "Procedimentos";
             this.btnProcedimentos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -459,10 +458,10 @@
             this.button3.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = global::Inovaestetica.Properties.Resources.icons8_orçamento_60__1_;
-            this.button3.Location = new System.Drawing.Point(23, 189);
+            this.button3.Location = new System.Drawing.Point(23, 198);
             this.button3.Name = "button3";
             this.button3.Padding = new System.Windows.Forms.Padding(0, 2, 0, 3);
-            this.button3.Size = new System.Drawing.Size(116, 135);
+            this.button3.Size = new System.Drawing.Size(116, 144);
             this.button3.TabIndex = 17;
             this.button3.Text = "Orçamentos";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -476,10 +475,10 @@
             this.button4.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = global::Inovaestetica.Properties.Resources.icons8_banco_seguro_60__1_;
-            this.button4.Location = new System.Drawing.Point(145, 189);
+            this.button4.Location = new System.Drawing.Point(145, 198);
             this.button4.Name = "button4";
             this.button4.Padding = new System.Windows.Forms.Padding(0, 2, 0, 3);
-            this.button4.Size = new System.Drawing.Size(116, 135);
+            this.button4.Size = new System.Drawing.Size(116, 144);
             this.button4.TabIndex = 18;
             this.button4.Text = "Cofre";
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -496,7 +495,7 @@
             this.button19.Location = new System.Drawing.Point(267, 48);
             this.button19.Name = "button19";
             this.button19.Padding = new System.Windows.Forms.Padding(0, 2, 0, 3);
-            this.button19.Size = new System.Drawing.Size(116, 135);
+            this.button19.Size = new System.Drawing.Size(116, 144);
             this.button19.TabIndex = 26;
             this.button19.Text = "Compras";
             this.button19.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -510,10 +509,10 @@
             this.button6.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button6.Location = new System.Drawing.Point(267, 189);
+            this.button6.Location = new System.Drawing.Point(267, 198);
             this.button6.Name = "button6";
             this.button6.Padding = new System.Windows.Forms.Padding(0, 2, 0, 3);
-            this.button6.Size = new System.Drawing.Size(116, 135);
+            this.button6.Size = new System.Drawing.Size(116, 144);
             this.button6.TabIndex = 20;
             this.button6.Text = "...";
             this.button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -529,7 +528,7 @@
             this.button7.Location = new System.Drawing.Point(409, 48);
             this.button7.Name = "button7";
             this.button7.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button7.Size = new System.Drawing.Size(116, 135);
+            this.button7.Size = new System.Drawing.Size(116, 144);
             this.button7.TabIndex = 37;
             this.button7.Text = "Estoque";
             this.button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -542,10 +541,10 @@
             this.button17.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.button17.ForeColor = System.Drawing.Color.White;
             this.button17.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button17.Location = new System.Drawing.Point(409, 330);
+            this.button17.Location = new System.Drawing.Point(409, 348);
             this.button17.Name = "button17";
             this.button17.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button17.Size = new System.Drawing.Size(116, 136);
+            this.button17.Size = new System.Drawing.Size(116, 145);
             this.button17.TabIndex = 55;
             this.button17.Text = "...";
             this.button17.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -558,10 +557,10 @@
             this.button20.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.button20.ForeColor = System.Drawing.Color.White;
             this.button20.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button20.Location = new System.Drawing.Point(531, 330);
+            this.button20.Location = new System.Drawing.Point(531, 348);
             this.button20.Name = "button20";
             this.button20.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button20.Size = new System.Drawing.Size(116, 136);
+            this.button20.Size = new System.Drawing.Size(116, 145);
             this.button20.TabIndex = 56;
             this.button20.Text = "...";
             this.button20.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -574,10 +573,10 @@
             this.button21.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.button21.ForeColor = System.Drawing.Color.White;
             this.button21.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button21.Location = new System.Drawing.Point(653, 330);
+            this.button21.Location = new System.Drawing.Point(653, 348);
             this.button21.Name = "button21";
             this.button21.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button21.Size = new System.Drawing.Size(116, 136);
+            this.button21.Size = new System.Drawing.Size(116, 145);
             this.button21.TabIndex = 57;
             this.button21.Text = "...";
             this.button21.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -590,10 +589,10 @@
             this.button23.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.button23.ForeColor = System.Drawing.Color.White;
             this.button23.Image = global::Inovaestetica.Properties.Resources.icons8_preço_baixo_64;
-            this.button23.Location = new System.Drawing.Point(795, 330);
+            this.button23.Location = new System.Drawing.Point(795, 348);
             this.button23.Name = "button23";
             this.button23.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button23.Size = new System.Drawing.Size(116, 136);
+            this.button23.Size = new System.Drawing.Size(116, 145);
             this.button23.TabIndex = 58;
             this.button23.Text = "Análise de custos";
             this.button23.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -606,11 +605,10 @@
             this.button26.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.button26.ForeColor = System.Drawing.Color.White;
             this.button26.Image = global::Inovaestetica.Properties.Resources.icons8_excluir_relatório_gráfico_60__1_;
-            this.button26.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button26.Location = new System.Drawing.Point(917, 330);
+            this.button26.Location = new System.Drawing.Point(917, 348);
             this.button26.Name = "button26";
             this.button26.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button26.Size = new System.Drawing.Size(116, 136);
+            this.button26.Size = new System.Drawing.Size(116, 145);
             this.button26.TabIndex = 59;
             this.button26.Text = "Análise de cancelamentos";
             this.button26.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -623,10 +621,10 @@
             this.button27.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.button27.ForeColor = System.Drawing.Color.White;
             this.button27.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button27.Location = new System.Drawing.Point(1039, 330);
+            this.button27.Location = new System.Drawing.Point(1039, 348);
             this.button27.Name = "button27";
             this.button27.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button27.Size = new System.Drawing.Size(117, 136);
+            this.button27.Size = new System.Drawing.Size(117, 145);
             this.button27.TabIndex = 60;
             this.button27.Text = "...";
             this.button27.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -657,9 +655,9 @@
             this.panel1.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.panel1.Controls.Add(this.tableLayoutPanel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 594);
+            this.panel1.Location = new System.Drawing.Point(0, 593);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1179, 58);
+            this.panel1.Size = new System.Drawing.Size(1179, 59);
             this.panel1.TabIndex = 15;
             // 
             // tableLayoutPanel2
@@ -674,7 +672,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1179, 58);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1179, 59);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // panel2
@@ -683,7 +681,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(568, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(41, 52);
+            this.panel2.Size = new System.Drawing.Size(41, 53);
             this.panel2.TabIndex = 1;
             // 
             // buttonCalculadora
@@ -692,7 +690,7 @@
             this.buttonCalculadora.Image = global::Inovaestetica.Properties.Resources.calculator_3534;
             this.buttonCalculadora.Location = new System.Drawing.Point(0, 0);
             this.buttonCalculadora.Name = "buttonCalculadora";
-            this.buttonCalculadora.Size = new System.Drawing.Size(41, 52);
+            this.buttonCalculadora.Size = new System.Drawing.Size(41, 53);
             this.buttonCalculadora.TabIndex = 0;
             this.buttonCalculadora.UseVisualStyleBackColor = true;
             this.buttonCalculadora.Click += new System.EventHandler(this.buttonCalculadora_Click);
@@ -700,20 +698,29 @@
             // panelConteudo
             // 
             this.panelConteudo.Controls.Add(this.tableLayoutPanel1);
-            this.panelConteudo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelConteudo.Location = new System.Drawing.Point(0, 107);
+            this.panelConteudo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelConteudo.Location = new System.Drawing.Point(0, 77);
             this.panelConteudo.Name = "panelConteudo";
-            this.panelConteudo.Size = new System.Drawing.Size(1179, 489);
+            this.panelConteudo.Size = new System.Drawing.Size(1179, 516);
             this.panelConteudo.TabIndex = 16;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.panelConteudo);
+            this.panel3.Controls.Add(this.panel1);
+            this.panel3.Controls.Add(this.panel5);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1179, 652);
+            this.panel3.TabIndex = 17;
             // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1179, 652);
-            this.Controls.Add(this.panelConteudo);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel3);
             this.Name = "Home";
             this.Text = "Form1";
             this.panel5.ResumeLayout(false);
@@ -726,6 +733,7 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panelConteudo.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -772,6 +780,7 @@
         private System.Windows.Forms.Button button27;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panelConteudo;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 
