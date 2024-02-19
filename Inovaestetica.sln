@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inovaestetica", "Inovaestetica\Inovaestetica.csproj", "{3888D2DE-35A6-4C37-A028-D1FC464B8A2A}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador_Inovaestetica", "Inovaestetica\Instalador\Instalador_Inovaestetica\Instalador_Inovaestetica.vdproj", "{B621CA50-A0B0-458D-B426-E9E3706C979D}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador_Inovaestetica", "Inovaestetica\Instalador\Instalador_Inovaestetica\Instalador_Inovaestetica.vdproj", "{01B67C5E-AF49-49CE-9B43-20688A1794E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{3888D2DE-35A6-4C37-A028-D1FC464B8A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3888D2DE-35A6-4C37-A028-D1FC464B8A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3888D2DE-35A6-4C37-A028-D1FC464B8A2A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B621CA50-A0B0-458D-B426-E9E3706C979D}.Debug|Any CPU.ActiveCfg = Debug
-		{B621CA50-A0B0-458D-B426-E9E3706C979D}.Release|Any CPU.ActiveCfg = Release
+		{01B67C5E-AF49-49CE-9B43-20688A1794E7}.Debug|Any CPU.ActiveCfg = Debug
+		{01B67C5E-AF49-49CE-9B43-20688A1794E7}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

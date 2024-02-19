@@ -52,8 +52,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>INOVAESTETICA-LOGO.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>CB45776306B229FDBE0004E60C02FB7BDFE265FF</ManifestCertificateThumbprint>
