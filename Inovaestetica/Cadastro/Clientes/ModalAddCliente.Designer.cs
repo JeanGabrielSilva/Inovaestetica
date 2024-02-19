@@ -205,6 +205,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ModalAddCliente";
             this.Text = "ModalAddCliente";
+            this.Load += new System.EventHandler(this.ModalAddCliente_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -110,10 +110,10 @@
     <Compile Include="Movimento\Procedimentos\FormProcedimentos.Designer.cs">
       <DependentUpon>FormProcedimentos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Movimento\Procedimentos\ModalAddCliente.cs">
+    <Compile Include="Cadastro\Clientes\ModalAddCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Movimento\Procedimentos\ModalAddCliente.Designer.cs">
+    <Compile Include="Cadastro\Clientes\ModalAddCliente.Designer.cs">
       <DependentUpon>ModalAddCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -127,7 +127,7 @@
     <EmbeddedResource Include="Movimento\Procedimentos\FormProcedimentos.resx">
       <DependentUpon>FormProcedimentos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Movimento\Procedimentos\ModalAddCliente.resx">
+    <EmbeddedResource Include="Cadastro\Clientes\ModalAddCliente.resx">
       <DependentUpon>ModalAddCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
