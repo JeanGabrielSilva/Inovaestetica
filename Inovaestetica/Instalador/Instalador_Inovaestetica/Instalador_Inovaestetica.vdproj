@@ -15,7 +15,25 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_8CA3764551E84C6A8DDF2E60DC7D056A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_A607C0BDD0404A47A411632B53EAF2F3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AD2F77D0ED424922AA545C3A3EEBF2C2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C317967C012A4BCF8A4EFEFBCAAE138D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -106,12 +124,72 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8CA3764551E84C6A8DDF2E60DC7D056A"
+            {
+            "SourcePath" = "8:..\\..\\InovaesteticaDataSet1.xsc"
+            "TargetName" = "8:InovaesteticaDataSet1.xsc"
+            "Tag" = "8:"
+            "Folder" = "8:_EA14FD4BDA344173B946B249393CA9D2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A607C0BDD0404A47A411632B53EAF2F3"
             {
             "SourcePath" = "8:C:\\Users\\USER\\Downloads\\INOVAESTETICA LOGO (1).png"
             "TargetName" = "8:INOVAESTETICA LOGO (1).png"
             "Tag" = "8:"
             "Folder" = "8:_A2972D3365F1438F8DC211A381E73A24"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AD2F77D0ED424922AA545C3A3EEBF2C2"
+            {
+            "SourcePath" = "8:..\\..\\InovaesteticaDataSet1.xsd"
+            "TargetName" = "8:InovaesteticaDataSet1.xsd"
+            "Tag" = "8:"
+            "Folder" = "8:_EA14FD4BDA344173B946B249393CA9D2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C317967C012A4BCF8A4EFEFBCAAE138D"
+            {
+            "SourcePath" = "8:..\\..\\InovaesteticaDataSet1.xss"
+            "TargetName" = "8:InovaesteticaDataSet1.xss"
+            "Tag" = "8:"
+            "Folder" = "8:_EA14FD4BDA344173B946B249393CA9D2"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -206,6 +284,17 @@
                         {
                         }
                     }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_EA14FD4BDA344173B946B249393CA9D2"
+                    {
+                    "Name" = "8:banco"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_470F1548A7A54CA7A5F8B9DB856E1426"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
         }
@@ -225,7 +314,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Inovaestetica"
         "ProductCode" = "8:{21321647-3C2C-4669-BF26-CC333258ECF5}"
-        "PackageCode" = "8:{4F085A1E-FEE3-4891-BF00-97C9CF3FC70E}"
+        "PackageCode" = "8:{2ACEF1A1-061D-42D5-859D-E5008D18E870}"
         "UpgradeCode" = "8:{3335D9E6-3C58-4D62-A853-68B40ED7BE78}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"

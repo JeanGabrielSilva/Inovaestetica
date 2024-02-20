@@ -44,7 +44,7 @@ namespace Inovaestetica.Movimento.Procedimentos
             }
         }
 
-        private void AdicionarClienteAoBanco(string nome, string sobrenome)
+        private void AdicionarClienteAoBanco(string nome, string sobrenome)                 
         {
             string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Inovaestetica\Inovaestetica.mdf;Integrated Security=True;";
 
